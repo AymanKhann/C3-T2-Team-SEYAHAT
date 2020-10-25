@@ -1,0 +1,267 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 42547,
+      "max": [
+        5.1084342002868652,
+        0.92034202814102173,
+        24.958747863769531
+      ],
+      "min": [
+        -3.8811089992523193,
+        -4.0571742057800293,
+        -0.93038797378540039
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 510564,
+      "componentType": 5126,
+      "count": 42547,
+      "max": [
+        0.9999467134475708,
+        0.99999713897705078,
+        0.9999624490737915
+      ],
+      "min": [
+        -0.99999237060546875,
+        -0.99999678134918213,
+        -0.99943482875823975
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 42547,
+      "max": [
+        0.99993830919265747,
+        0.999958336353302,
+        0.99995017051696777,
+        1
+      ],
+      "min": [
+        -0.99999165534973145,
+        -0.99997305870056152,
+        -0.99999934434890747,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 42547,
+      "max": [
+        0.99418497085571289,
+        0.99968397617340088
+      ],
+      "min": [
+        0.002308000111952424,
+        0.004031000193208456
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 216192,
+      "max": [
+        42546
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Minneapolis Institute of Art (https://sketchfab.com/artsmia)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/3rd-c-ce-gandhara-buddha-1cd1470645334a76ae23b755b53fb736",
+      "title": "3rd C CE Gandhara Buddha"
+    },
+    "generator": "Sketchfab-7.80.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 864768,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 340376,
+      "byteOffset": 864768,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1021128,
+      "byteOffset": 1205144,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 680752,
+      "byteOffset": 2226272,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2907024,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Mia_2001_153_NewGhandaraBuddha_OBJ_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Mia_2001_153_NewGhandaraBuddha_OBJ_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Mia_2001_153_NewGhandaraBuddha_OBJ_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Mia_2001_153_NewGhandaraBuddha_OBJ",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.99882549047470093,
+        -0.024336649104952812,
+        0.041897766292095184,
+        0,
+        0.023074652999639511,
+        0.99927312135696411,
+        0.030345464125275612,
+        0,
+        -0.042605817317962646,
+        -0.029343044385313988,
+        0.99866098165512085,
+        0,
+        -4.8740530014038086,
+        1.5666533708572388,
+        -8.8946981430053711,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "3rd_c_ce_GandharaBuddha_70K_Mesh_OBJ.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+

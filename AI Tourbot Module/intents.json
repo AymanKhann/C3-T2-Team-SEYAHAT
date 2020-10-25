@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello!", "Good to see you", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through hotels, top tourist spots, classic landmarks in Karachi", "Offering support for hotels, top tourist spot, classic landmarks in Karachi"],
+         "context": [""]
+        },
+        {"tag": "karachi",
+        "patterns":["Which city can you provide information for?", "What can you tell me about Karachi?", "Tell me about Karachi.", "Give information for Karachi", "I want information about Karachi."],
+        "responses": ["I can tell you about hotels and tourist attractions in Karachi"],
+        "context": [""]
+       },
+       {"tag": "hotel",
+        "patterns": ["Tell me about hotels in Karachi", "Which are best hotels in Karachi", "Give information on hotels"],
+        "responses": ["I can give you information according to your budget, choose from expensive, mid range and cheap hotels", "You want information on expensive, mid-range or cheap hotels?"],
+        "context": [""]
+       },
+       {"tag": "expensive",
+        "patterns": ["Tell me about the expensive hotels", "I want information on expensive hotels", "expensive hotels please","i have budget for expensive ones"],
+        "responses": ["Here are our top 3 picks for expensive hotels!. (1)Pearl Continental Hotel (2)Movenpick Hotel (3)Ramada Plaza. To book a room www.booking.com", "Pearl Continental, Movenpick, Ramada Plaza are our top picks! Book your room now www.booking.com"],
+        "context": [""]
+        },
+        {"tag": "midrange",
+        "patterns": ["Give information for mid range hotel", "Tell me about mid range hotels", "Mid range hotels please","i have budget for mid range ones"],
+        "responses": ["We recommend (1)Luxury Inn (2)Orchards Cottage (3)Hilltop Hotel check out deals at www.hotels.com", "Luxury Inn, Orchards Cottage, Hilltop Hotel are our picks www.hotels.com"],
+        "context": [""]
+        },
+        {"tag": "cheap",
+        "patterns": ["Give information for cheap hotel", "Tell me about cheapest hotels", "Cheap ones please","i have budget for cheap ones"],
+        "responses": ["We recommend (1)Ktown rooms (2)Elegant Palace Guesthouse  (3)Hotel Second Home  Head over to maps to find out more!", "Ktown rooms, Elegant Palace Guesthouse, Hotel Second Home are most liked by customers"],
+        "context": [""]
+        },
+		{"tag": "places",
+        "patterns": ["where do people most visit","where do tourists go in Karachi","what are the tourist attractions here","which places are most visited by people","tell me where tourist visit most"],
+        "responses": ["the beaches, museums, historic places, malls are most visited. Which category would you like to know about more?"],
+        "context": [""]
+        },
+		{"tag": "beaches",
+        "patterns": ["Best beaches","tell me about most visited beaches","which ones are the beautiful beaches","which beach do people go to most","what are the most visited beaches by tourists"],
+        "responses": ["There are many but popular beaches are Clifton beach, French beach, Sandspit beach, Hawk's Bay beach and Manora beach.","Tourists and locals both love Clifton beach, French beach, Sandspit beach, Hawk's Bay beach and Manora beach."],
+        "context": [""]
+        }
+		
+
+   ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

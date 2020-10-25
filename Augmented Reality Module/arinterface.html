@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+    <title>Explore the Aura!</title>
+  </head>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+
+      <!-- FOR 3D Model <a-assets>
+        <a-asset-item id="model" src="https://cdn.glitch.com/ef73546d-1aec-410f-a8a5-da93ac6e19b8%2Fscene.gltf?v=1603582509077"></a-asset-item>
+      </a-assets> -->
+      
+      <a-marker preset="hiro">
+        <a-text value="Mohenjo-daro an archaeological site in the province of Sindh, Pakistan. Built around 2500!"></a-text>
+        <a-image src="https://cdn.glitch.com/ef73546d-1aec-410f-a8a5-da93ac6e19b8%2Fbath-indus.jpg?v=1603597250465"></a-image>
+        <!--<a-entity gltf-model="##model"></a-entity>-->
+      </a-marker>
+      
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html> 

@@ -1,0 +1,350 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.77453702688217163,
+        10.72213077545166,
+        0.97942399978637695
+      ],
+      "min": [
+        -1.066627025604248,
+        8.1387176513671875,
+        -4.0513439178466797
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99999749660491943,
+        0.99999690055847168,
+        0.99970567226409912
+      ],
+      "min": [
+        -0.99993926286697388,
+        -0.99993163347244263,
+        -0.99466609954833984
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99999642372131348,
+        0.99995619058609009,
+        0.99930322170257568,
+        1
+      ],
+      "min": [
+        -0.9919930100440979,
+        -0.9999430775642395,
+        -0.99925273656845093,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.81960785388946533,
+        0.81176471710205078,
+        0.70196080207824707,
+        1
+      ],
+      "min": [
+        0.039215687662363052,
+        0.031372550874948502,
+        0.0078431377187371254,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.96801602840423584,
+        0.99889302253723145
+      ],
+      "min": [
+        0,
+        0.030935000628232956
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 374583,
+      "max": [
+        65531
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 34259,
+      "max": [
+        0.79830598831176758,
+        9.6231012344360352,
+        -1.9191559553146362
+      ],
+      "min": [
+        -1.3556480407714844,
+        7.9459819793701172,
+        -4.0932450294494629
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1983876,
+      "componentType": 5126,
+      "count": 34259,
+      "max": [
+        0.99999523162841797,
+        0.99995321035385132,
+        0.99995326995849609
+      ],
+      "min": [
+        -0.99985605478286743,
+        -0.99999028444290161,
+        -0.99999594688415527
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 2097024,
+      "componentType": 5126,
+      "count": 34259,
+      "max": [
+        0.99999052286148071,
+        0.9990394115447998,
+        0.99995982646942139,
+        1
+      ],
+      "min": [
+        -0.99999153614044189,
+        -0.9999997615814209,
+        -0.99943643808364868,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 2645168,
+      "componentType": 5126,
+      "count": 34259,
+      "max": [
+        0.80392158031463623,
+        0.7921568751335144,
+        0.69019609689712524,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 34259,
+      "max": [
+        0.96865302324295044,
+        1
+      ],
+      "min": [
+        0.0041899997740983963,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1498332,
+      "componentType": 5125,
+      "count": 177693,
+      "max": [
+        34258
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Angel Xiang (https://sketchfab.com/xiang25y)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/gandharan-monk-1095982c8e344e0090cf29e3f858c1d1",
+      "title": "Gandharan Monk"
+    },
+    "generator": "Sketchfab-6.90.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2209104,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 798328,
+      "byteOffset": 2209104,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2394984,
+      "byteOffset": 3007432,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3193312,
+      "byteOffset": 5402416,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 8595728,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "MH_1947.1.O.OII",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 9,
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "name": "MH 1947.1.O.OII.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
